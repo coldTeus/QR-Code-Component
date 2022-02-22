@@ -13,26 +13,22 @@ Esta é uma solução para o [desafio do componente de código QR no Frontend Me
   - [Planos de desenvolvimento](#planos-de-desenvolvimento)
   - [Recursos úteis](#recursos-úteis)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## Visão Geral
 
 ### Prints
 
-![](./screenshot.jpg)
+Desktop 1440
 
-Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito do mouse na página e selecionar "Fazer uma captura de tela". Você pode escolher uma captura de tela de altura total ou uma cortada com base no tamanho da página. Se for muito longo, talvez seja melhor cortá-lo.
+![https://i.imgur.com/iBI2G1e.png]
 
-Como alternativa, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para fazer a captura de tela. FireShot tem uma opção gratuita, então você não precisa comprá-la.
+Mobile 375
 
-Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
-
-**Nota: Exclua esta nota e os parágrafos acima ao adicionar sua captura de tela. Se você preferir não adicionar uma captura de tela, sinta-se à vontade para remover esta seção inteira.**
+![https://i.imgur.com/xma1L0J.png]
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL do site ao vivo: [Github pages](https://coldteus.github.io/qr-code-component/index/index.html)
 
 ## Processo
 
@@ -42,59 +38,27 @@ Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projet
 - Propriedades personalizadas de CSS
 - Flexbox
 - Fluxo de trabalho mobile-first
-- [React](https://reactjs.org/) - biblioteca JS
-- [Next.js](https://nextjs.org/) - Estrutura de reação
-- [Componentes estilizados](https://styled-components.com/) - Para estilos
-
-**Nota: Estes são apenas exemplos. Exclua esta nota e substitua a lista acima por suas próprias escolhas**
 
 ### Conhecimentos Adquiridos
 
-Use esta seção para recapitular alguns de seus principais aprendizados ao trabalhar neste projeto. Escrevê-los e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
+Aproveitei o projeto para colocar em prática a utilização de ramificação do Github, pensei que era algo muito complexo, mas, estava totalmente enganado. Fiz os commit de forma mais descritiva e informatica de todas as alterações que foi executada, para tornar isso um hábito.
 
-Para ver como você pode adicionar snippets de código, veja abaixo:
-
-```html
-<h1>Algum código HTML do qual me orgulho</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-Se você quiser mais ajuda para escrever markdown, recomendamos conferir [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
-
-**Nota: Exclua esta nota e o conteúdo desta seção e substitua por seus próprios aprendizados.**
+Através desse projeto eu adquirir um conhecimento melhor sobre Flexbox e finalmente vi em prática o quão incrível é esse modelo de layout, tornando mais fácil ter seu site responsivo se utilizado da maneira correta.
 
 ### Planos de desenvolvimento
 
-Use esta seção para delinear as áreas nas quais você deseja continuar focando em projetos futuros. Estes podem ser conceitos com os quais você ainda não está completamente confortável ou técnicas que você achou úteis que você deseja refinar e aperfeiçoar.
-
-**Note: Exclua esta nota e o conteúdo desta seção e substitua por seus próprios planos para desenvolvimento contínuo.**
+Pretendo desafiar a mim mesmo em relação a Flexbox, acredito que eu ainda tenha muito o que aprender sobre. Como também pretendo começar com inclementação de JavaScript e particiar de mais desafios, pelo menos iniciar outro projeto sempre que finalizar algum.
+Acho que preciso entender um pouco mais sobre Git e Github, certos momentos me senti perdido em determinados assuntos.
 
 ### Recursos úteis
 
-- [Recurso de exemplo 1](https://www.example.com) - Isso me ajudou pelo motivo XYZ. Gostei muito deste modelo e vou usá-lo daqui para frente.
-- [Example resource 2](https://www.example.com) - Este é um artigo incrível que me ajudou a finalmente entender XYZ. Eu recomendo para quem ainda está aprendendo este conceito.
-
-**Nota: Apague esta nota e substitua a lista acima por recursos que o ajudaram durante o desafio. Eles podem ser úteis para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando você olhar para trás neste projeto no futuro.**
+- [Guia completo de Flexbox](https://origamid.com/projetos/flexbox-guia-completo/) - Esse é um artigo incrível que me ajudou a finalmente entender Flexbox. Recomendo para quem ainda tem interesse em saber sobre e como implementar em seus projetos.
+- [Lightshot](https://app.prntscr.com/pt-br/download.html) - Utilizei o Lightshot para tirar os print de forma mais rápida e prática.
+- [CSS :root](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root) - Utilizei :root para tornar mais rápida e fácil a personalização do projeto.
 
 ## Autor
 
-- Site - [Adicione seu nome aqui](https://www.your-site.com)
-- Mentor de frontend - [@seunomedeusuário](https://www.frontendmentor.io/profile/seunomedeusuário)
-- Twitter - [@seunome de usuário](https://www.twitter.com/seunome de usuário)
+- Site - [Não tenho site ainda](/)
+- Mentor de frontend - [Quem quiser ser meu mentor, eu aceito :)](/)
+- Twitter - [@coldteus](https://twitter.com/coldteus)
 
-**Nota: Exclua esta nota e adicione/remova/edite as linhas acima com base nos links que você gostaria de compartilhar.**
-
-## Agradecimentos
-
-É aqui que você pode dar uma dica de chapéu para quem o ajudou neste projeto. Talvez você tenha trabalhado em equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar-lhes algum crédito.
-
-**Nota: Exclua esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção completamente.**
