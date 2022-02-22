@@ -49,7 +49,6 @@ p {
 /* Container */
 
 #container {
-    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -79,9 +78,14 @@ p {
 
 /* credits */
 
-.attribution { 
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-top: -35px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
