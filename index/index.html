@@ -7,32 +7,33 @@ Utilizado para aperfeiçoamento dos meus conhecimentos em HTML e CSS, como tamb�
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Frontend Mentor | QR code component</title>
 </head>
+
 <body>
     <header>
-        <div id="box">
-            <div class="qr-code">
-                <img src="../img/image-qr-code.png" alt="Código QR" class="img-qr-code">
-                <h1>Improve your front-end skills by building projects</h1>
-                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-                <div id="like_button_container"></div>
+        <div id="container">
+            <div class="box">
+                <div class="qr-code">
+                    <img src="../assets/img/image-qr-code.png" alt="Código QR" class="img-qr-code">
+                    <div class="text-content">
+                        <h1>Improve your front-end skills by building projects</h1>
+                        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-    
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-
-    <!-- Load our React component. -->
-    <script src="../js/like_button.js"></script>
-
 </body>
+
 </html>

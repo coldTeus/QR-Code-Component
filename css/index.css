@@ -1,0 +1,78 @@
+:root {
+    /* colors */
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+
+    /* typography */
+    font-size: 15px;
+    --p-font-size: 0.815rem;
+    --h1-font-size: 1.20rem;
+    --text-font-family: 'Roboto', sans-serif;
+}
+
+/* CSS resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS global */
+body {
+    background-color: var(--color-light-gray);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-family: var(--text-font-family);
+    font-weight: 700;
+    color: var(--color-dark-blue);
+}
+
+p {
+    font-size: var(--p-font-size);
+    font-family: var(--text-font-family);
+    font-weight: 400;
+    color: var(--color-grayish-blue);
+    padding: 13px 10px 13px 10px;
+}
+
+/* Container */
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box {
+    background-color: var(--color-white);
+    width: 280px;
+    height: auto;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 0 0 31px -9px var(--color-grayish-blue);
+}
+.qr-code {
+    text-align: center;
+}
+.img-qr-code {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    margin: auto;
+}
+.text-content {
+    padding: 15px 15px 15px 15px;
+}
