@@ -1,0 +1,38 @@
+<!-- Essa página foi desenvolvida através de um desafio escolhido no site:
+
+https://www.frontendmentor.io/
+
+Utilizado para aperfeiçoamento dos meus conhecimentos em HTML e CSS, como também uma forma de praticar e desenvolver meu portfólio.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | QR code component</title>
+</head>
+<body>
+    <header>
+        <div id="box">
+            <div class="qr-code">
+                <img src="../img/image-qr-code.png" alt="Código QR" class="img-qr-code">
+                <h1>Improve your front-end skills by building projects</h1>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                <div id="like_button_container"></div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Load our React component. -->
+    <script src="../js/like_button.js"></script>
+
+</body>
+</html>

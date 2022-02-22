@@ -41,7 +41,6 @@ Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projet
 - Marcação HTML5 semântica
 - Propriedades personalizadas de CSS
 - Flexbox
-- Grade CSS
 - Fluxo de trabalho mobile-first
 - [React](https://reactjs.org/) - biblioteca JS
 - [Next.js](https://nextjs.org/) - Estrutura de reação
