@@ -7,8 +7,8 @@
 
     /* typography */
     font-size: 15px;
-    --p-font-size: 0.815rem;
-    --h1-font-size: 1.20rem;
+    --p-font-size: 13px;
+    --h1-font-size: 19px;
     --text-font-family: 'Roboto', sans-serif;
 }
 
@@ -49,7 +49,7 @@ p {
 /* Container */
 
 #container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +57,7 @@ p {
 }
 .box {
     background-color: var(--color-white);
-    width: 280px;
+    max-width: 280px;
     height: auto;
     padding: 13px;
     border-radius: 10px;
