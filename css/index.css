@@ -6,9 +6,9 @@
     --color-dark-blue: hsl(218, 44%, 22%);
 
     /* typography */
-    font-size: 15px;
-    --p-font-size: 13px;
-    --h1-font-size: 19px;
+    font-size: 0.938rem;
+    --p-font-size: 0.813rem;
+    --h1-font-size: 1.188rem;
     --text-font-family: 'Roboto', sans-serif;
 }
 
@@ -83,7 +83,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    font-size: 11px; 
+    font-size: 0.688rem; 
     text-align: center;
     margin-top: -35px;
 }
